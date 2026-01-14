@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* shear  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+     max-width: 1440px;
+     margin: 0 auto;
+}
+.display-flex{
+    display: flex;
+}
+
+
+.navber{
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.navber-brand h1{
+    font-size: 1.5rem;
+    color: rgba(58, 58, 58, 1);
+    font-weight: 800;
+}
+.navbar-links ul{
+      list-style: none;
+      gap: 34px;
+}
+.navbar-links ul li a{
+      text-decoration: none;
+      color: #3A3A3A;
+      font-weight: 600;
+}
+.navbar-links ul li i{
+      color: #3A3A3A;
+      font-weight: 600;
+      font-size: 1.1rem;
+}

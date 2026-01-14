@@ -1,0 +1,32 @@
+.bannar-parent{
+    height: 700px;
+    justify-content:space-between;
+    align-items: center;
+}
+.bannar-info{
+    width: 582px;
+    height: 270px;
+}
+.bannar-info h1{
+   font-size: 3rem;
+   font-weight: 800;
+   color: #3A3A3A;
+   margin-bottom: 16px;
+}
+.bannar-info p{
+   font-size: 1rem;
+   font-size: 200;
+   color: #3A3A3A;
+}
+.bannar-btn i{
+  margin-left: 10px;
+}
+.bannar-img{
+    background-image: url("/./images/Circle\ design.svg");
+
+}
+.bannar-img img{
+    position: relative;
+    left: 0px;
+    top: 30px;
+}

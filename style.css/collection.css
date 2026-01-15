@@ -1,0 +1,49 @@
+.collection-parent {
+  
+}
+.collection-tittel h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color:#3A3A3A;
+    margin-bottom: 30px;
+}
+.collection-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 45px;
+}
+.collection-card{
+    width: 329px;
+    height: 476px;
+    padding: 17px 14px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 47px;
+}
+.collection-card h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    margin-top: 16px;
+}
+.collection-card h6{
+   font-size: 1.5rem;
+   color: black;
+   font-weight: 300;
+   margin-top: 6px;
+}
+.collection-card p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    width: 196px;
+}
+.star-icon ul{
+  list-style: none;
+  font-size: 0.7rem;
+  gap: 3px;
+  color: orange;
+  margin-top: 8px;
+}

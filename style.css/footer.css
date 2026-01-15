@@ -1,0 +1,42 @@
+.footer-parent{
+    margin-top: 100px;
+    text-align: center;
+    background-color: #0a0826;
+}
+.footer-parent h1{
+    padding-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.footer-parent p{
+    color: #D9DBE1;
+    font-size: 0.8rem;
+    margin-top: 3px;
+}
+.footer-icon{
+    padding-bottom: 50px;
+}
+.footer-icon ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    color: #D9DBE1;
+    gap: 16px;
+    margin-top: 17px;
+   
+}
+.footer-icon ul li{
+    background-color: gray;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+.footer-icon ul li i{
+    
+    padding: 5px 8px;
+    position: relative;
+    top: 4px;
+    left: -6px;
+    color: white;
+}

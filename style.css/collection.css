@@ -47,3 +47,10 @@
   color: orange;
   margin-top: 8px;
 }
+.see-more p{
+  color: #E02C6D;
+  text-align: right;
+  margin-top: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+}
